@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "cooper";
+	src: url("fonts/CooperHewitt-Heavy.woff2") format("woff2");
+}
+
+p {
+	font-family: "cooper";
+	font-size: 35px;
+	color: darkblue;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+	margin-top: 100px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	z-index: -1;
+}
+
+.blue {
+	width: 800px;
+	height: 480px;
+	z-index: -1;
+	justify-content: center;
+}
+
+.blue {
+	background-color: lightblue;
+	margin-top: 10px;
+	margin-left: 160px;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.flex-end {
+	justify-content: flex-end;
+	z-index: -1;
+}
+
+.flex-vertical {
+	display: flex;
+	height: 850px;
+	flex-direction: column;
+	z-index: -1;
+	margin-top: -300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
